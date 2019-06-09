@@ -135,6 +135,24 @@
                       "type": "object",
                       "additionalProperties": false,
                       "properties": {
+                        "help-me/.*": {
+                          "$ref": "#/definitions/runStep"
+                        }
+                      }
+                    },
+                    {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "slack/.*": {
+                          "$ref": "#/definitions/runStep"
+                        }
+                      }
+                    },
+                    {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
                         "run": {
                           "$ref": "#/definitions/runStep"
                         }
