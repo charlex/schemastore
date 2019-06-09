@@ -126,7 +126,7 @@
             "items": {
               "oneOf": [
                 {
-                  "enum": ["checkout", "setup_remote_docker"]
+                  "enum": ["checkout", "setup_remote_docker", "slack/notify"]
                 },
                 {
                   "type": "object",
